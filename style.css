@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#082C7199, #31476f66), url('BackgroundImage.png');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:100% 100%;
+    background-size:cover;
+}
+
+.heading {
+    margin-top: 60px;
+    font-size: 4.6em;
+    width: 600px;
+    font-family: 'Cormorant Infant', serif;
+    color: #F5F5F5;
+    line-height: 110px;
+    margin-bottom: 30px;
+}
+
+.second-content h4{
+    display: inline;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 19px;
+    color: #F5F5F5;
+    padding-left: 8px;
+}
+
+.icons-row1 {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.icons-row1 div{
+    display: flex;
+}
+ 
+.icons-row2 {
+    display: flex;
+    width: 410px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icons-row2 div{
+    display: flex;
+}
+
+.icons-row2 img {
+    height: 60px;
+    width: 60px;
+}
+
+.icons-row1 img {
+    height: 60px;
+    width: 60px;
+}
+
+span {
+    font-size: 31px;
+}
+
+.third-content {
+    background-color: #0C107780;
+    padding: 10px;
+    font-family: 'Cormorant Infant', serif;
+    color: white;
+    position: relative;
+    left: 2px;
+    width: 1600px;
+}
+
+.third-content p{
+    font-weight: lighter;
+}
+
+.third-content h4{
+    margin-top: 60px;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+  }
+  .logo{
+    margin-top: 22px;
+    padding: 0 15px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    font-family: 'Cormorant Infant', serif;
+  }
+  nav ul li a{
+    color: white;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  a.active,a:hover{
+    background: #0C1077;
+    transition: .5s;
+    color: white;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+
+
+
